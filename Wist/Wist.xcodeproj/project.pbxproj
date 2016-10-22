@@ -56,6 +56,9 @@
 		124A2E711DBBCACA00E0DE0D /* Wist */ = {
 			isa = PBXGroup;
 			children = (
+				124A2E891DBBCB4000E0DE0D /* Controller */,
+				124A2E881DBBCB3900E0DE0D /* View */,
+				124A2E871DBBCB2D00E0DE0D /* Model */,
 				124A2E721DBBCACA00E0DE0D /* AppDelegate.swift */,
 				124A2E741DBBCACA00E0DE0D /* ViewController.swift */,
 				124A2E761DBBCACA00E0DE0D /* Main.storyboard */,
@@ -65,6 +68,27 @@
 				124A2E791DBBCACA00E0DE0D /* Wist.xcdatamodeld */,
 			);
 			path = Wist;
+			sourceTree = "<group>";
+		};
+		124A2E871DBBCB2D00E0DE0D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		124A2E881DBBCB3900E0DE0D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		124A2E891DBBCB4000E0DE0D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
