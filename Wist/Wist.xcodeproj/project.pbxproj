@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		12323CDB1DBFB6BE00E7DC66 /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12323CDA1DBFB6BE00E7DC66 /* MaterialView.swift */; };
+		12323CDD1DBFB96A00E7DC66 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12323CDC1DBFB96A00E7DC66 /* ItemCell.swift */; };
 		124A2E731DBBCACA00E0DE0D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124A2E721DBBCACA00E0DE0D /* AppDelegate.swift */; };
-		124A2E751DBBCACA00E0DE0D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124A2E741DBBCACA00E0DE0D /* ViewController.swift */; };
+		124A2E751DBBCACA00E0DE0D /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124A2E741DBBCACA00E0DE0D /* MainVC.swift */; };
 		124A2E781DBBCACA00E0DE0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 124A2E761DBBCACA00E0DE0D /* Main.storyboard */; };
 		124A2E7B1DBBCACA00E0DE0D /* Wist.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 124A2E791DBBCACA00E0DE0D /* Wist.xcdatamodeld */; };
 		124A2E7D1DBBCACA00E0DE0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 124A2E7C1DBBCACA00E0DE0D /* Assets.xcassets */; };
@@ -24,9 +26,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		12323CDA1DBFB6BE00E7DC66 /* MaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
+		12323CDC1DBFB96A00E7DC66 /* ItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
 		124A2E6F1DBBCACA00E0DE0D /* Wist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		124A2E721DBBCACA00E0DE0D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		124A2E741DBBCACA00E0DE0D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		124A2E741DBBCACA00E0DE0D /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		124A2E771DBBCACA00E0DE0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		124A2E7A1DBBCACA00E0DE0D /* Wist.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Wist.xcdatamodel; sourceTree = "<group>"; };
 		124A2E7C1DBBCACA00E0DE0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -76,7 +80,7 @@
 				124A2E881DBBCB3900E0DE0D /* View */,
 				124A2E871DBBCB2D00E0DE0D /* Model */,
 				124A2E721DBBCACA00E0DE0D /* AppDelegate.swift */,
-				124A2E741DBBCACA00E0DE0D /* ViewController.swift */,
+				124A2E741DBBCACA00E0DE0D /* MainVC.swift */,
 				124A2E761DBBCACA00E0DE0D /* Main.storyboard */,
 				124A2E7C1DBBCACA00E0DE0D /* Assets.xcassets */,
 				124A2E7E1DBBCACA00E0DE0D /* LaunchScreen.storyboard */,
@@ -101,6 +105,8 @@
 		124A2E881DBBCB3900E0DE0D /* View */ = {
 			isa = PBXGroup;
 			children = (
+				12323CDA1DBFB6BE00E7DC66 /* MaterialView.swift */,
+				12323CDC1DBFB96A00E7DC66 /* ItemCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -196,9 +202,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12323CDD1DBFB96A00E7DC66 /* ItemCell.swift in Sources */,
 				124A2E941DBBD0BD00E0DE0D /* ItemType+CoreDataClass.swift in Sources */,
-				124A2E751DBBCACA00E0DE0D /* ViewController.swift in Sources */,
+				124A2E751DBBCACA00E0DE0D /* MainVC.swift in Sources */,
 				124A2E931DBBD0BD00E0DE0D /* Image+CoreDataProperties.swift in Sources */,
+				12323CDB1DBFB6BE00E7DC66 /* MaterialView.swift in Sources */,
 				124A2E731DBBCACA00E0DE0D /* AppDelegate.swift in Sources */,
 				124A2E991DBBD0BD00E0DE0D /* Store+CoreDataProperties.swift in Sources */,
 				124A2E7B1DBBCACA00E0DE0D /* Wist.xcdatamodeld in Sources */,
@@ -370,6 +378,7 @@
 				124A2E861DBBCACA00E0DE0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
